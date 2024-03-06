@@ -31,7 +31,7 @@ class VehiclesController{
         return request.get('/vehicle/search='+name);
     }
 
-    testPostCall(data:{[key:string]: string | number}){
+    testPostCallToAdd(data:{[key:string]: string | number}){
         return request.post('/postCall')
         .send(data)
     }
