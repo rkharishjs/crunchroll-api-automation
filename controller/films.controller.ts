@@ -29,4 +29,4 @@ class FilmsController{
 
 }
 
-export default new FilmsController();// this spec call will have access to the brand controller
+export default new FilmsController();// this spec call will have access to the films controller

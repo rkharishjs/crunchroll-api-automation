@@ -1,119 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="52" failures="0" errors="0" time="12.389">
-  <testsuite name="Vechiles" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="10.574" tests="10">
-    <testcase classname="Vechiles Get All Vehicles GET /vehicles/" name="Vechiles Get All Vehicles GET /vehicles/" time="0.008">
-    </testcase>
-    <testcase classname="Vechiles Get Vehicles By ID GET /vehicles/ by ID" name="Vechiles Get Vehicles By ID GET /vehicles/ by ID" time="0.918">
-    </testcase>
-    <testcase classname="Vechiles Search Vehicles By Name Search vehicles by Name" name="Vechiles Search Vehicles By Name Search vehicles by Name" time="1.096">
-    </testcase>
-    <testcase classname="Vechiles Search Vehicles By Model Search vehicles by Model" name="Vechiles Search Vehicles By Model Search vehicles by Model" time="0.765">
-    </testcase>
-    <testcase classname="Vechiles Get Vehicles By incorrect ID GET /vehicles/ using incorrect Id" name="Vechiles Get Vehicles By incorrect ID GET /vehicles/ using incorrect Id" time="0.636">
-    </testcase>
-    <testcase classname="Vechiles Search Vehicles By invalid Name Search vehicles by invalid Name" name="Vechiles Search Vehicles By invalid Name Search vehicles by invalid Name" time="0.638">
-    </testcase>
-    <testcase classname="Vechiles Search Vehicles By invalid Model Search vehicles by invalid Model" name="Vechiles Search Vehicles By invalid Model Search vehicles by invalid Model" time="0.679">
-    </testcase>
-    <testcase classname="Vechiles Get All Vehicles with incorrect path GET /vehicle/ - incorrect path" name="Vechiles Get All Vehicles with incorrect path GET /vehicle/ - incorrect path" time="0.729">
-    </testcase>
-    <testcase classname="Vechiles Get Vehicles By ID with incorrect path GET /vehicle/1 - incorrect path" name="Vechiles Get Vehicles By ID with incorrect path GET /vehicle/1 - incorrect path" time="0.67">
-    </testcase>
-    <testcase classname="Vechiles Search Vehicles By Name with incorrect path Search vehicles by Name with incorrect path" name="Vechiles Search Vehicles By Name with incorrect path Search vehicles by Name with incorrect path" time="0.68">
-    </testcase>
-  </testsuite>
-  <testsuite name="Species" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="10.681" tests="8">
-    <testcase classname="Species Get All Species GET /species/" name="Species Get All Species GET /species/" time="2.316">
-    </testcase>
-    <testcase classname="Species Get Species By ID GET /species/ by ID" name="Species Get Species By ID GET /species/ by ID" time="0.627">
-    </testcase>
-    <testcase classname="Species Search Species By Name Search species by Name" name="Species Search Species By Name Search species by Name" time="0.638">
-    </testcase>
-    <testcase classname="Species Get Species By incorrect ID GET /species/ using incorrect Id" name="Species Get Species By incorrect ID GET /species/ using incorrect Id" time="0.641">
-    </testcase>
-    <testcase classname="Species Search Species By invalid Name Search species by invalid Name" name="Species Search Species By invalid Name Search species by invalid Name" time="0.695">
-    </testcase>
-    <testcase classname="Species Get All Species with incorrect path GET /specie/ - incorrect path" name="Species Get All Species with incorrect path GET /specie/ - incorrect path" time="0.659">
-    </testcase>
-    <testcase classname="Species Get Species By ID with incorrect path GET /specie/1 - incorrect path" name="Species Get Species By ID with incorrect path GET /specie/1 - incorrect path" time="0.658">
-    </testcase>
-    <testcase classname="Species Search Species By Name with incorrect path Search species by Name with incorrect path" name="Species Search Species By Name with incorrect path Search species by Name with incorrect path" time="0.671">
-    </testcase>
-  </testsuite>
-  <testsuite name="People" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="11.08" tests="8">
-    <testcase classname="People Get All People GET /people/" name="People Get All People GET /people/" time="2.441">
-    </testcase>
-    <testcase classname="People Get People By ID GET /people/ by ID" name="People Get People By ID GET /people/ by ID" time="0.669">
-    </testcase>
-    <testcase classname="People Search People By Name Search people by Name" name="People Search People By Name Search people by Name" time="0.66">
-    </testcase>
-    <testcase classname="People Get People By incorrect ID GET /people/ using incorrect Id" name="People Get People By incorrect ID GET /people/ using incorrect Id" time="0.643">
-    </testcase>
-    <testcase classname="People Search People By invalid Name Search people by invalid Name" name="People Search People By invalid Name Search people by invalid Name" time="0.86">
-    </testcase>
-    <testcase classname="People Get All People with incorrect path GET /peopl/ - incorrect path" name="People Get All People with incorrect path GET /peopl/ - incorrect path" time="0.678">
-    </testcase>
-    <testcase classname="People Get Films By ID with incorrect path GET /peopl/1 - incorrect path" name="People Get Films By ID with incorrect path GET /peopl/1 - incorrect path" time="0.756">
-    </testcase>
-    <testcase classname="People Search Films By Name with incorrect path Search people by Name with incorrect path" name="People Search Films By Name with incorrect path Search people by Name with incorrect path" time="0.62">
-    </testcase>
-  </testsuite>
-  <testsuite name="Planets" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="11.143" tests="8">
-    <testcase classname="Planets Get All Planets GET /planets/" name="Planets Get All Planets GET /planets/" time="2.451">
-    </testcase>
-    <testcase classname="Planets Get Planets By ID GET /planets/ by ID" name="Planets Get Planets By ID GET /planets/ by ID" time="0.676">
-    </testcase>
-    <testcase classname="Planets Search Planets By Name Search Planets by Name" name="Planets Search Planets By Name Search Planets by Name" time="0.712">
-    </testcase>
-    <testcase classname="Planets Get Planets By incorrect ID GET /planets/ using incorrect Id" name="Planets Get Planets By incorrect ID GET /planets/ using incorrect Id" time="0.649">
-    </testcase>
-    <testcase classname="Planets Search Planets By invalid Name Search planets by invalid Name" name="Planets Search Planets By invalid Name Search planets by invalid Name" time="0.945">
-    </testcase>
-    <testcase classname="Planets Get All Planets with incorrect path GET /planet/ - incorrect path" name="Planets Get All Planets with incorrect path GET /planet/ - incorrect path" time="0.661">
-    </testcase>
-    <testcase classname="Planets Get Planets By ID with incorrect path GET /planet/1 - incorrect path" name="Planets Get Planets By ID with incorrect path GET /planet/1 - incorrect path" time="0.654">
-    </testcase>
-    <testcase classname="Planets Search Planets By Name with incorrect path Search Planets by Name" name="Planets Search Planets By Name with incorrect path Search Planets by Name" time="0.645">
-    </testcase>
-  </testsuite>
-  <testsuite name="Films" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="11.891" tests="8">
-    <testcase classname="Films Get All Films GET /films/" name="Films Get All Films GET /films/" time="2.947">
-    </testcase>
-    <testcase classname="Films Get Films By ID GET /films/ by ID" name="Films Get Films By ID GET /films/ by ID" time="0.714">
-    </testcase>
-    <testcase classname="Films Search Films By Name Search Films by Name" name="Films Search Films By Name Search Films by Name" time="0.733">
-    </testcase>
-    <testcase classname="Films Get Films By incorrect ID GET /films/ using incorrect Id" name="Films Get Films By incorrect ID GET /films/ using incorrect Id" time="0.925">
-    </testcase>
-    <testcase classname="Films Search Films By invalid Name Search Films by invalid Name" name="Films Search Films By invalid Name Search Films by invalid Name" time="0.654">
-    </testcase>
-    <testcase classname="Films Get All Films with incorrect path GET /film/ - incorrect path" name="Films Get All Films with incorrect path GET /film/ - incorrect path" time="0.647">
-    </testcase>
-    <testcase classname="Films Get Films By ID with incorrect path GET /film/1 - incorrect path" name="Films Get Films By ID with incorrect path GET /film/1 - incorrect path" time="0.663">
-    </testcase>
-    <testcase classname="Films Search Films By Name with incorrect path Search Films by Name" name="Films Search Films By Name with incorrect path Search Films by Name" time="0.738">
-    </testcase>
-  </testsuite>
-  <testsuite name="Starships" errors="0" failures="0" skipped="0" timestamp="2024-02-18T14:11:01" time="11.904" tests="10">
-    <testcase classname="Starships Get All Starships GET /starships/" name="Starships Get All Starships GET /starships/" time="2.055">
-    </testcase>
-    <testcase classname="Starships Get Starships By ID GET /starships/ by ID" name="Starships Get Starships By ID GET /starships/ by ID" time="0.725">
-    </testcase>
-    <testcase classname="Starships Search Starships By Name Search starships by Name" name="Starships Search Starships By Name Search starships by Name" time="0.676">
-    </testcase>
-    <testcase classname="Starships Search Starships By Model Search starships by Model" name="Starships Search Starships By Model Search starships by Model" time="0.679">
-    </testcase>
-    <testcase classname="Starships Get Starships By incorrect ID GET /starships/ using incorrect Id" name="Starships Get Starships By incorrect ID GET /starships/ using incorrect Id" time="0.628">
-    </testcase>
-    <testcase classname="Starships Search Starships By invalid Name Search starships by invalid Name" name="Starships Search Starships By invalid Name Search starships by invalid Name" time="0.704">
-    </testcase>
-    <testcase classname="Starships Search Starships By invalid Model Search starships by invalid Model" name="Starships Search Starships By invalid Model Search starships by invalid Model" time="0.605">
-    </testcase>
-    <testcase classname="Starships Get All Starships with incorrect path GET /starship/ - incorrect path" name="Starships Get All Starships with incorrect path GET /starship/ - incorrect path" time="0.656">
-    </testcase>
-    <testcase classname="Starships Get Starships By ID with incorrect path GET /starship/1 - incorrect path" name="Starships Get Starships By ID with incorrect path GET /starship/1 - incorrect path" time="0.647">
-    </testcase>
-    <testcase classname="Starships Search Starships By Name with incorrect path Search species by Name with incorrect path" name="Starships Search Starships By Name with incorrect path Search species by Name with incorrect path" time="0.731">
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="5.415">
+  <testsuite name="Test" errors="0" failures="1" skipped="0" timestamp="2024-03-06T03:14:58" time="5.176" tests="1">
+    <testcase classname="Test test post test" name="Test test post test" time="1.85">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 200
+Received: 404
+    at C:\Users\hemab\OneDrive\Desktop\JOB\TYPESCRIPT\crunchrollProject\specs\test.spec.ts:16:41
+    at Generator.next (&lt;anonymous&gt;)
+    at fulfilled (C:\Users\hemab\OneDrive\Desktop\JOB\TYPESCRIPT\crunchrollProject\specs\test.spec.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
     </testcase>
   </testsuite>
 </testsuites>

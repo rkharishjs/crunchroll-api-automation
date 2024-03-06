@@ -13,7 +13,6 @@ describe('Films', ()=>{
             expect(res.body.count).toBe(6);
             expect(res.body.results.length).toBe(6);
         })
-       
     });
 
     describe('Get Films By ID',()=>{
